@@ -29,6 +29,7 @@ and open the template in the editor.
                 opacity: 0;
                 width: 100%;
                 overflow: hidden;
+                line-height: 2;
             }
             div#button {
                 text-align: center;
@@ -54,8 +55,9 @@ and open the template in the editor.
                 $("div#introdution")
                         .velocity({opacity: 1}, 1000)
                         .velocity({width: 85}, 1500)
-                        .velocity({height: 80}, 1250)
-                        .velocity({opacity: 0}, 3000)
+                        .velocity({height: 150}, 1250)
+                        .velocity({opacity: 0}, 2000)
+                        .velocity({opacity: 1}, 2000)
                         ;
             }
         </script>
